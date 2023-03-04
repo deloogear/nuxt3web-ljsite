@@ -1,4 +1,4 @@
-#nuxt3web
+
 
 # nuxt3-ljsite
 纯javascript, nuxt3web网站框架, 
@@ -8,7 +8,7 @@
 
 
 
-####[已集成模块]
+##已集成模块
 1.tailwindcss   [原子化css]
 2.pinia  [仓储]
 3.i18n   [多语言]
