@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt  build ",
+    "dev": " nuxt dev ",
+    "preview": "nuxt preview",
+    "generate": " nuxt generate  --dotenv env/.env.prod",
+    "gen_with_cdn": "cross-env   BASE_URL='/'  nuxt generate ",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.3.0",
+    "cross-env": "^7.0.3",
+    "nuxt": "^3.2.3",
+    "postcss": "^8.4.17",
+    "sass": "^1.55.0",
+    "vite-plugin-copy2": "^1.1.0"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
+    "@pinia/nuxt": "^0.4.7",
+    "autoprefixer": "^10.4.13",
+    "axios": "^1.1.2",
+    "fingerprintjs2": "^2.1.4",
+    "postcss-px2rem": "^0.3.0",
+    "qs": "^6.11.0",
+    "vue": "^3.2.45"
+  }
+}

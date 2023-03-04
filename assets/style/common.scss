@@ -1,0 +1,63 @@
+.w-m{
+    width:1200px;
+}
+.bg-cm{
+  background: $cm;
+  &.cursor-pointer:hover{
+    background: darken($cm,10%);
+  }
+}
+
+.mask{
+    position: fixed;
+    z-index: 1000;
+    width:100vw;
+    height:100vh;
+    top:0;left:0;
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 3695746 */
+  src: url('../fonts/iconfont.woff2') format('woff2'),
+       url('../fonts/iconfont.woff') format('woff'),
+       url('../fonts/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+    &::-webkit-scrollbar {
+      background:transparent;
+      display: block;
+      width:4px;
+    }
+    &::-webkit-scrollbar-button {
+      display: none;
+    }
+    &::-webkit-scrollbar-track-piece {
+      display: none;
+    }
+    &::-webkit-scrollbar-track {
+      background:transparent;
+        padding:0 2px;
+        width:4px;
+        border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb { 
+      background: #b2bfd2;
+      border-radius: 4px;
+      display: block;
+    }
+    outline: none;
+    
+  }
+
+  @media (max-width: 750px) {
+    .w-m{
+      width:750px;
+    }
+  }
